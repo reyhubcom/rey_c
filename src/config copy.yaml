@@ -1,6 +1,6 @@
 site:
-  name: Rey.c
-  site: 'https://rey.c'
+  name: AstroWind
+  site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Rey.c
+    default: AstroWind
     template: '%s — AstroWind'
-  description: "\U0001F680 Rey.c Blockchain Validator and Delegate Crytpcurrency."
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Rey.c
+    site_name: AstroWind
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
