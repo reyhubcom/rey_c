@@ -35,8 +35,8 @@ const metadata = {
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Let's <span class="hidden xl:inline">.</span>
-      <span class="text-accent dark:text-white"> .</span> Staking
+      Free template for <span class="hidden xl:inline">creating websites with</span>
+      <span class="text-accent dark:text-white"> Astro 5.0</span> + Tailwind CSS
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -44,7 +44,6 @@ const metadata = {
         <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
         + Tailwind CSS.</span
       >
-       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/c5709a91-d67c-4543-9eae-c80890ec1c69/Tnn7iXcj7z.lottie" background="transparent" speed="1" style="width: 100%; height: 500px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
       Blogs.
