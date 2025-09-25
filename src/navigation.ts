@@ -177,6 +177,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://rey.c"> Rey</a> 2025 Rey.C All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyanto.com"> Rey</a> 2025 Rey.Fan All rights reserved.
   `,
 };
