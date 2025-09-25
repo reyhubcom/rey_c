@@ -1,6 +1,6 @@
 site:
-  name: Rey.c
-  site: 'https://rey.c'
+  name: Rey.Fan
+  site: 'https://rey.Fan'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Rey.c
+    default: Rey.Fan
     template: '%s — AstroWind'
   description: "\U0001F680 Rey.c Blockchain Validator and Delegate Crytpcurrency."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Rey.c
+    site_name: Rey.Fan
     images:
       - url: '~/assets/images/default.png'
         width: 1200
