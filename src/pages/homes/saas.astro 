@@ -56,55 +56,6 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-
-import { createCowSwapWidget } from '@cowprotocol/widget-lib'
-
-const container = document.getElementById('<YOUR_CONTAINER>')
-
-//  Fill this form https://cowprotocol.typeform.com/to/rONXaxHV once you pick your "appCode"
-const params = {
-    "appCode": "My Cool App", // Name of your app (max 50 characters)
-    "width": "100%", // Width in pixels (or 100% to use all available space)
-    "height": "640px",
-    "chainId": 1, // 1 (Mainnet), 100 (Gnosis), 11155111 (Sepolia)
-    "tokenLists": [ // All default enabled token lists. Also see https://tokenlists.org
-        "https://raw.githubusercontent.com/cowprotocol/token-lists/main/src/public/CoinGecko.1.json",
-        "https://files.cow.fi/tokens/CowSwap.json"
-    ],
-    "tradeType": "swap", // swap, limit or advanced
-    "sell": { // Sell token. Optionally add amount for sell orders
-        "asset": "USDC",
-        "amount": "100000"
-    },
-    "buy": { // Buy token. Optionally add amount for buy orders
-        "asset": "COW",
-        "amount": "0"
-    },
-    "enabledTradeTypes": [ // swap, limit, advanced, yield
-        "swap",
-        "limit",
-        "advanced",
-        "yield"
-    ],
-    "theme": { // light/dark or provide your own color palette
-        "baseTheme": "dark",
-        "text": "#ffffff"
-    },
-    "standaloneMode": false,
-    "disableToastMessages": false,
-    "disableProgressBar": false,
-    "hideBridgeInfo": false,
-    "hideOrdersTable": false,
-    "images": {},
-    "sounds": {},
-    "customTokens": []
-}
-
-// Ethereum EIP-1193 provider. For a quick test, you can pass `window.ethereum`, but consider using something like https://web3modal.com
-const provider = window.ethereum
-
-const { updateParams } = createCowSwapWidget(container, { params, provider })
-  
       <span class="hidden sm:inline">
         Elevate your website creation process with <span class="font-semibold">AstroWind</span>'s SaaS solutions.</span
       >
