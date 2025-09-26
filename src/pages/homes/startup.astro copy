@@ -19,7 +19,6 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.new-app.min.js"></script>
   <!-- Hero Widget ******************* -->
 
   <Hero
@@ -36,7 +35,6 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      <div id="rubic-widget-root"></div>
       Improve <span class="hidden sm:inline">the online presence of</span> your <span
         class="text-accent dark:text-white">Startup</span
       > with Astrowind templates
@@ -316,36 +314,4 @@ const metadata = {
       impact.
     </Fragment>
   </CallToAction>
-  <script defer type="text/javascript">
-    // describe widget configuration and saving to a global variable for future use
-    var configuration = {
-        from: 'ETH',
-        to: 'RBC',
-        fromChain: 'ETH',
-        toChain: 'ETH',
-        amount: 1,
-        iframe: 'flex',
-        hideSelectionFrom: false,
-        hideSelectionTo: true,
-        useLargeIframe: false,
-        hideBranding: false,
-        hideUnusedUi: false,
-        theme: 'dark',
-        injectTokens: {
-            eth: ['0xd123575d94a7ad9bff3ad037ae9d4d52f41a7518']
-        },
-        slippagePercent: {
-            instantTrades: 2,
-            crossChain: 5
-        },
-        crossChainIntegratorAddress: '<Your integrator address>',
-        onChainIntegratorAddress: '<Your integrator address>'
-    }
-
-    // prevent accidental changes to the object, for example, when re-creating a widget for another theme
-    Object.freeze(configuration);
-
-    // create widget
-    rubicWidget.init(configuration);
-</script>
 </Layout>
