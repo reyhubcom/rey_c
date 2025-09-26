@@ -24,34 +24,34 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Protocols',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Ethereum (Anchor Link)',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Solana',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Eigenlayer',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'Celestia',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Polkadot',
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
+          text: 'Polygon',
           href: getPermalink('/terms'),
         },
         {
-          text: 'Privacy policy',
+          text: 'Avalanche',
           href: getPermalink('/privacy'),
         },
       ],
