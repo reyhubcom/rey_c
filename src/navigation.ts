@@ -19,7 +19,7 @@ export const headerData = {
         },
         {
           text: 'Custodians',
-          href: getPermalink('/homes/personal'),
+          href: getPermalink('/homes/let'),
         },
       ],
     },
