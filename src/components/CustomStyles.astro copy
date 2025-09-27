@@ -27,17 +27,17 @@ import '@fontsource-variable/inter';
 
     --aw-color-primary: rgb(1 97 239);
     --aw-color-secondary: rgb(1 84 207);
-    --aw-color-accent: rgb(255, 255, 255);
+    --aw-color-accent: rgb(109 40 217);
 
     --aw-color-text-heading: rgb(0 0 0);
     --aw-color-text-default: rgb(16 16 16);
     --aw-color-text-muted: rgb(16 16 16 / 66%);
-    --aw-color-bg-page: rgb(23, 4, 65);
+    --aw-color-bg-page: rgb(255 255 255);
 
-    --aw-color-bg-page-dark: rgb(4 4 34);
+    --aw-color-bg-page-dark: rgb(3 6 32);
 
     ::selection {
-      background-color: rgb(6, 6, 46);
+      background-color: lavender;
     }
   }
 
@@ -56,7 +56,7 @@ import '@fontsource-variable/inter';
     --aw-color-bg-page: rgb(3 6 32);
 
     ::selection {
-      background-color: rgb(4, 4, 34);
+      background-color: black;
       color: snow;
     }
   }
