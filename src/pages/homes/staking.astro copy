@@ -45,8 +45,13 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="image">
-      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/78dcc14f-c1fd-43c4-87bf-5244eef2544b/Ell0uHzC55.lottie" speed="1" style="width: 100%; height: 400px" mode="forward" loop autoplay></dotlottie-wc>
+      <YouTube id="UChBQffEETgDQ_g2U7ZS_Dzw" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <style is:inline>
+        lite-youtube {
+          margin: 0 auto;
+          max-width: 100%;
+        }
+      </style>
     </Fragment>
   </Hero>
 
