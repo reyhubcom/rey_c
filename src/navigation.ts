@@ -121,9 +121,9 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Blockchains',
       links: [
-        { text: 'Features', href: '#' },
+        { text: 'Ethereum', href: '#' },
         { text: 'Security', href: '#' },
         { text: 'Team', href: '#' },
         { text: 'Enterprise', href: '#' },
